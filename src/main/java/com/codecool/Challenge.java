@@ -12,7 +12,7 @@ public class Challenge {
                 } else {
                     return b;
                 }
-            } else if(b < 0) {
+            } else if(b <= 0) {
                 return a;
             } else {
                 return b;
@@ -24,4 +24,3 @@ public class Challenge {
 
     }
 }
-
